@@ -1,0 +1,18 @@
+{
+    "name": "To Do Extension",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "A simple beautiful to do list",
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "To Do Lists"
+    },
+    "permissions": ["activeTab"],
+    "host_permissions": [
+      "https://*/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
