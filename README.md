@@ -1,4 +1,5 @@
 A browser based extension to save To-Do Tasks
+
 How to use this extension?
 
 1. Downloads the files in the repository.
